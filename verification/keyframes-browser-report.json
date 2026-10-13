@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-13",
+  "checks": [
+    {
+      "name": "Every existing effect has a keyframe control",
+      "detail": true
+    },
+    {
+      "name": "Two depth keys interpolate controls and actual rendered pixels",
+      "detail": true
+    },
+    {
+      "name": "Ease in/out and Hold evaluate in the preview",
+      "detail": true
+    },
+    {
+      "name": "Keys can be retimed/deleted and time collisions are rejected",
+      "detail": true
+    },
+    {
+      "name": "Discrete sampling uses Hold and rebuilds only on value changes",
+      "detail": true
+    },
+    {
+      "name": "Camera poses create and retain five animation tracks",
+      "detail": true
+    },
+    {
+      "name": "Previous/next key navigation moves the playhead",
+      "detail": true
+    },
+    {
+      "name": "Clip cannot be shortened past its last key",
+      "detail": true
+    },
+    {
+      "name": "Project save/open preserves animation and camera keys",
+      "detail": true
+    },
+    {
+      "name": "Earlier projects open with a fresh timeline",
+      "detail": true
+    },
+    {
+      "name": "Malformed animation cannot replace the current project",
+      "detail": true
+    },
+    {
+      "name": "Recording resets to zero, locks edits and saves automatically at the clip end",
+      "detail": {
+        "bytes": 348517
+      }
+    },
+    {
+      "name": "Downloaded video decodes and contains the keyframed opacity change",
+      "detail": {
+        "width": 1110,
+        "height": 598,
+        "early": 391431,
+        "late": 4261635
+      }
+    },
+    {
+      "name": "Preview loop wraps without ending playback",
+      "detail": true
+    },
+    {
+      "name": "Timeline fits a 390 pixel viewport",
+      "detail": true
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Headless Chromium; broad browser/hardware and long captures unverified.",
+    "Live capture pacing is browser-dependent and video is silent."
+  ]
+}

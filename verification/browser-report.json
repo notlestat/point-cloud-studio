@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-13",
+  "checks": [
+    {
+      "name": "WebGL example renders nonblack pixels",
+      "detail": {
+        "width": 1110,
+        "height": 594,
+        "nonblack": 35833,
+        "sum": 13869161,
+        "error": 0,
+        "renderer": "WebKit WebGL"
+      }
+    },
+    {
+      "name": "Local PNG import creates visible image relief",
+      "detail": {
+        "width": 1110,
+        "height": 594,
+        "nonblack": 10063,
+        "sum": 2966200,
+        "error": 0,
+        "renderer": "WebKit WebGL"
+      }
+    },
+    {
+      "name": "Echo and scatter controls change rendered pixels",
+      "detail": {
+        "width": 1110,
+        "height": 594,
+        "nonblack": 36508,
+        "sum": 11806370,
+        "error": 0,
+        "renderer": "WebKit WebGL"
+      }
+    },
+    {
+      "name": "Depth map accepted and removable",
+      "detail": true
+    },
+    {
+      "name": "Motion changes pixels, then pauses",
+      "detail": true
+    },
+    {
+      "name": "Local audio analysis alters pixels and pauses with motion",
+      "detail": true
+    },
+    {
+      "name": "Embedded project captures settings/source/camera",
+      "detail": true
+    },
+    {
+      "name": "Saved project reopens after switching source",
+      "detail": true
+    },
+    {
+      "name": "Invalid project leaves previous source intact",
+      "detail": true
+    },
+    {
+      "name": "PNG download has selected 2400 pixel edge",
+      "detail": {
+        "width": 2400,
+        "height": 1283
+      }
+    },
+    {
+      "name": "ASCII PLY imports as 3D and renders points",
+      "detail": true
+    },
+    {
+      "name": "Unsupported binary PLY is rejected without replacing source",
+      "detail": true
+    },
+    {
+      "name": "Short silent video recording downloads",
+      "detail": {
+        "bytes": 864225,
+        "name": "point-study.webm"
+      }
+    },
+    {
+      "name": "390 pixel mobile layout has no horizontal overflow",
+      "detail": true
+    },
+    {
+      "name": "Local server only serves application allowlist",
+      "detail": true
+    }
+  ],
+  "unexpectedErrors": [],
+  "limits": [
+    "Headless Chromium rendering; interactive browser and user visual judgement remain separate.",
+    "Audio speaker output not verified.",
+    "Recording test proves a nonempty file; frame pacing and long captures unverified."
+  ]
+}

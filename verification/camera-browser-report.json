@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-13",
+  "checks": [
+    {
+      "name": "Camera is off on page load, with no access request",
+      "detail": true
+    },
+    {
+      "name": "Explicit start requests video only and renders a simulated getUserMedia feed",
+      "detail": {
+        "sum": 9150344,
+        "hash": 502659354,
+        "error": 0
+      }
+    },
+    {
+      "name": "Live frames change the points while animation remains paused",
+      "detail": {
+        "sum": 9707790,
+        "hash": 761580571,
+        "error": 0
+      }
+    },
+    {
+      "name": "Mirror camera changes rendered output",
+      "detail": true
+    },
+    {
+      "name": "Existing scatter/echo effects apply to live points",
+      "detail": true
+    },
+    {
+      "name": "Saving live camera embeds a still snapshot and retains keys without stopping the feed",
+      "detail": true
+    },
+    {
+      "name": "Live camera records with keyframes and Stop camera stays available",
+      "detail": {
+        "bytes": 628818
+      }
+    },
+    {
+      "name": "Freeze releases the video track and retains a stable still",
+      "detail": true
+    },
+    {
+      "name": "Opening a snapshot project stops the camera and never requests it automatically",
+      "detail": true
+    },
+    {
+      "name": "Permission denial preserves the source and restores Start camera",
+      "detail": true
+    },
+    {
+      "name": "Cancelling a pending request stops a late arriving stream",
+      "detail": true
+    },
+    {
+      "name": "Hiding the page releases camera tracks and retains the last frame",
+      "detail": true
+    },
+    {
+      "name": "Stop camera during recording safely saves the partial clip and unlocks editing",
+      "detail": true
+    },
+    {
+      "name": "Camera controls fit a 390 pixel viewport",
+      "detail": true
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Uses Chromium simulated video device, not the physical MacBook camera.",
+    "macOS permission and hardware behavior need a user check.",
+    "Live sampling targets 15 updates per second, or 10 for Dense; sustained performance is unverified."
+  ]
+}

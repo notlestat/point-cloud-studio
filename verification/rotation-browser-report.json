@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-13",
+  "checks": [
+    {
+      "name": "All three axes change WebGL pixels and 360 degrees returns to the initial view",
+      "detail": true
+    },
+    {
+      "name": "Exact degree entry is supported and out-of-range values retain the prior rotation",
+      "detail": true
+    },
+    {
+      "name": "Key all axes and axis edits animate the artwork independently of the camera",
+      "detail": true
+    },
+    {
+      "name": "Scrubbing evaluates combined XYZ keys in degrees",
+      "detail": true
+    },
+    {
+      "name": "Rotation settings and keys round-trip in version 3 projects",
+      "detail": true
+    },
+    {
+      "name": "Set rotation to zero updates the current keyed pose without deleting tracks",
+      "detail": true
+    },
+    {
+      "name": "Earlier projects migrate to zero rotation",
+      "detail": true
+    },
+    {
+      "name": "Decoded recording contains the keyed Y-axis turn",
+      "detail": {
+        "earlyWidth": 436,
+        "lateWidth": 360
+      }
+    },
+    {
+      "name": "Rotation controls fit a 390 pixel viewport",
+      "detail": true
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Headless Chromium pixel readback and recorded video decode; broad hardware and long capture testing remain unverified."
+  ]
+}
