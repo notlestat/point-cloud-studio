@@ -30,11 +30,11 @@ Fourteen additional checks in `camera-browser.mjs` passed using Chromium's simul
 
 Limits: these tests do not establish physical MacBook camera access, macOS permissions, Codex in-app-browser support, hardware indicator behavior, broad device switching or sustained frame pacing. Camera sampling is bounded and live; it does not rewind with the effect timeline or infer real depth. Video export remains silent.
 
-## Version 0.4 axis rotation
+## Version 0.4 XYZ rotation
 
 13 October 2026. All 22 core tests passed, including four rotation tests for right-handed X/Y/Z transforms, X→Y→Z composition, distance preservation, full turns, explicit multi-turn interpolation and legacy/current project validation. All fifteen baseline, fifteen keyframe and fourteen simulated-camera browser checks passed against 0.4.
 
-Nine additional `rotation-browser.mjs` checks passed. Actual WebGL pixel readback changed for each axis and returned to the initial image after 360°. Exact degree entry, rejected invalid angles, all-axis keying independent of camera pose, combined-axis scrubbing, version 3 project round-trip, zero pose retaining tracks, version 2 migration and 390-pixel layout were verified. A one-second Y-axis animation was recorded and decoded: visible point bounds narrowed from 435 pixels in the early frame to 361 in the late frame, establishing the turn in the exported clip. Desktop/mobile rotation controls were inspected. The original review referenced the local `rotation-browser-report.json`.
+Nine additional `rotation-browser.mjs` checks passed. Actual WebGL pixel readback changed for X, Y, and Z and returned to the initial image after 360°. Exact degree entry, rejected invalid angles, simultaneous XYZ keying independent of camera pose, combined rotation scrubbing, version 3 project round-trip, zero pose retaining tracks, version 2 migration and 390-pixel layout were verified. A one-second Y rotation animation was recorded and decoded: visible point bounds narrowed from 435 pixels in the early frame to 361 in the late frame, establishing the turn in the exported clip. Desktop/mobile rotation controls were inspected. The original review referenced the local `rotation-browser-report.json`.
 
 Limits: fixed Euler X→Y→Z order, no arbitrary pivot/gizmo/quaternion track; frame pacing and broad hardware remain unverified. The physical camera limitation from 0.3 remains.
 

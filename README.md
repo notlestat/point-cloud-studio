@@ -1,6 +1,6 @@
 # Point Cloud Studio
 
-A local browser tool by Corey Kavanagh for point-cloud artwork from images, ASCII PLY files, and live camera video. The checked-in version is `0.4.0` and remains experimental.
+A local browser tool for point-cloud artwork from images, ASCII PLY files, and live camera video. The checked-in version is `0.4.0` and remains experimental.
 
 ![Generated arch in Point Cloud Studio](docs/preview.png)
 
