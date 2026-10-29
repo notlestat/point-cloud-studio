@@ -32,7 +32,7 @@ Follow [Make and animate a point-cloud study](docs/make-a-study.md) for import, 
 
 Image and camera brightness create shallow relief, not complete 3D reconstruction. A supplied depth map can control still-image relief. ASCII PLY supplies genuine 3D point coordinates.
 
-Project files are explicit downloads. Refresh has no automatic recovery. Save before refreshing or replacing a session. Camera access starts only after an explicit action; saved projects never restore access automatically.
+Project files are explicit downloads. Refresh has no automatic recovery. Save before refreshing or replacing a session. The camera starts only when you start it. Opening a saved project never turns the camera on.
 
 Video uses live browser timing and a supported MediaRecorder codec. It remains silent even when local audio drives the artwork. Physical-camera access, broad hardware compatibility, and sustained dense-cloud performance remain unverified.
 
